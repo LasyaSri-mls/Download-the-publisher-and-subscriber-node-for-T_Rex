@@ -2,9 +2,10 @@
 
 First, use the "export ROS_DOMAIN_ID=0" to have both devices connected to the same local network.
 
-Create a package using "ros2 pkg create --build-type ament_python --license Apache-2.0 py_pubsub"
-     
-     # Refer the publisher node code from the give 'publisher.py' file.
+Create a package using 
+     "ros2 pkg create --build-type ament_python --license Apache-2.0 py_pubsub"
+
+Refer the publisher node code from the give 'publisher.py' file.
 Now refer the subscriber node code from 'subscriber.py' file.
 
 now build the code using 'colcon build' command.
